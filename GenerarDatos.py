@@ -48,7 +48,7 @@ CATEGORIAS = ["Latrodectus","Mantis","Tijereta"] #,"Lithobius sp","Lycosidae","M
 IMAGE_SIZE = 100
 
 if __name__ == "__main__":
-    DATADIR = "..\\PracticaFinalSI\\Insectos\\Dataset\\Train"
+    DATADIR = "..\\Insectos\\Dataset\\Train"
     DATADIR2 = "..\\Insectos\\Dataset\\Valid"
     DATADIR3 = "..\\Insectos\\Dataset\\Test"
     Generar_datos(DATADIR,"TrainX.pickle","TrainY.pickle")
